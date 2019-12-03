@@ -5,10 +5,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
-
-# GoogleCamera
-$(call inherit-product-if-exists, packages/apps/GoogleCamera/gcam.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
@@ -33,7 +30,7 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     libvulkan \
-    vendor.display.config@1.7
+    vendor.display.config@1.8
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -62,6 +59,10 @@ PRODUCT_PACKAGES += \
     rcs_service_aidl.xml \
     rcs_service_api \
     rcs_service_api.xml
+
+# Recovery Ramdisk
+PRODUCT_PACKAGES += \
+    init.recovery.qcom.rc
 
 # AOT Preload
 PRODUCT_DEXPREOPT_SPEED_APPS += \
