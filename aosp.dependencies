@@ -5,31 +5,25 @@
     "branch": "ten"
   },
   {
-    "repository": "device_xiaomi_violet-kernel",
-    "target_path": "device/xiaomi/violet-kernel",
+    "repository": "device_xiaomi_ginkgo-kernel",
+    "target_path": "device/xiaomi/ginkgo-kernel",
     "branch": "ten"
   },
   {
-    "repository": "vendor_xiaomi_violet-vendor",
-    "target_path": "device/xiaomi/violet-vendor",
+    "repository": "vendor_xiaomi_ginkgo-vendor",
+    "target_path": "device/xiaomi/ginkgo-vendor",
     "branch": "ten",
-    "remote": "pixel-gitlab"
+    "remote": "gitlab"
   },
   {
-    "repository": "device_xiaomi_violet-firmware",
-    "target_path": "device/xiaomi/violet-firmware",
+    "repository": "device_xiaomi_ginkgo-firmware",
+    "target_path": "device/xiaomi/ginkgo-firmware",
     "branch": "ten",
-    "remote": "pixel-gitlab"
+    "remote": "gitlab"
   },
   {
     "repository": "packages_apps_PixelLiveWallpaper",
     "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
-  },
-  {
-    "repository": "packages_apps_GoogleCamera_violet",
-    "target_path": "packages/apps/GoogleCamera",
     "branch": "ten",
     "remote": "pixel-gitlab"
   }
